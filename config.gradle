@@ -1,0 +1,13 @@
+ext {
+
+    android = [
+            compileSdkVersion: 29,
+            buildToolsVersion: "30.0.3",
+            minSdkVersion    : 19,
+            targetSdkVersion : 29,
+    ]
+
+    dependencies = [
+            "hiandroid-core": "com.github.xiaojye:hiandroid-core:1.0",
+    ]
+}

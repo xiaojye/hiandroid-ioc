@@ -1,0 +1,3 @@
+rootProject.name = "hi-ioc"
+include ':app'
+include ':hiandroid-ioc'
