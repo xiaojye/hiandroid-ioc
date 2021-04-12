@@ -15,4 +15,11 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface IocActivity {
     String value() default "";
+
+    /**
+     * set content view.
+     *
+     * @since 1.0.1
+     */
+    int layout() default 0;
 }
